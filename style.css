@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: blue; */
+  height: 50px;
+  padding: 10px;
+  background-image: linear-gradient(to right,  rgba(70, 3, 36, 0.7), rgba(245, 52, 158, 0.7));
+}
+
+#nav-bar img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#nav-bar ul {
+  display: flex;
+}
+
+#nav-bar ul li {
+  list-style: none;
+  margin: 0px 10px;
+  color: white;
+}
+
+#nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: rgba(245, 52, 158, 0.7);
+}
+
+/* MY DETAILS SECTION */
+.my-details {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 400px;
+  width: 80%;
+  align-items: center;
+  margin: 20px auto;
+  background-color:  rgba(204, 95, 150, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.my-details img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50px;
+  opacity: 0.8;
+  padding: 10px 0px;
+}
+
+.my-details hgroup {
+  text-align: center;
+  color: white;
+}
+
+.my-details hgroup p, .my-details hgroup h2 {
+  margin-bottom: 20px;
+}
+
+.my-details hgroup p {
+  word-spacing:  3px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 600px){
+  .my-details {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 600px){
+  .my-details {
+    width: 80%;
+    flex-direction: row;
+  }
+
+  .my-details img {
+    width: 250px;
+    height: 300px;
+    border-radius: 80px;
+  }
+
+  .my-details hgroup {
+    margin: 0px 10px;
+  }
+}
