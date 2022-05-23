@@ -4,16 +4,16 @@
   box-sizing: border-box;
 }
 
-.plate {
+.plate1{
   display: flex;
   justify-content: center;
-  height: 530px;
+  height: 750px;
   margin: 50px 0px;
 }
 
-.signContainer {
+.signContainer1 {
+  height: 750px;
   width: 50%;
-  height: 530px;
   background-color:  rgb(131, 32, 81);
   padding: 20px;
   border-radius: 20px;
@@ -24,7 +24,7 @@ body {
   background-color: rgba(70, 3, 36, 0.9);
 }
 
-.signContainer h1 {
+.signContainer h1, .signContainer1 h1 {
   text-align: center;
   color: hsl(0, 0%, 100%);
   font-size: 20px;
@@ -55,33 +55,48 @@ body {
   color: hsl(0, 0%, 60%);
 }
 
-.signContainer p {
+.signContainer p, .signContainer1 p {
   text-align: center;
   line-height: 20px;
 }
 
-.signContainer p a {
+.signContainer p a, .signContainer1 p a {
   text-decoration: none;
   color: rgba(70, 3, 36, 0.9);
 }
 
-.signContainer p a:hover{
+.signContainer p a:hover, .signContainer1 p a:hover{
   color: rgba(245, 52, 158, 0.7);
 }
 
 @media  screen and (min-width:700px) {
-  .signContainer{
+  .signContainer, .signContainer1{
     width: 40%;
   }
 }
 
 @media  screen and (min-width:1000px) {
-  .signContainer{
+  .signContainer, .signContainer1{
     width: 27%;
   }
 }
 
 /* LOG IN PAGE STYLING */
+.plate {
+  display: flex;
+  justify-content: center;
+  height: 530px;
+  margin: 50px 0px;
+}
+
+.signContainer {
+  width: 50%;
+  height: 530px;
+  background-color:  rgb(131, 32, 81);
+  padding: 20px;
+  border-radius: 20px;
+}
+
 #logInForm {
   margin: 30px 10px;
 }
@@ -114,18 +129,18 @@ span {
   margin-bottom: 100px
 }
 
-.signContainer h3 {
+.signContainer h3, .signContainer1 h3 {
   font-size: 15px;
   text-align: center;
   margin-bottom: 30px;
 }
 
-.signContainer h3 a {
+.signContainer h3 a, .signContainer1 h3 a {
   text-decoration: none;
   color: rgba(70, 3, 36, 0.9);
 }
 
-.signContainer h3 a:hover {
+.signContainer h3 a:hover, .signContainer1 h3 a:hover {
   color: rgba(245, 52, 158, 0.7);
 }
 
@@ -134,7 +149,7 @@ span {
 }
 
 @media screen and (min-width: 375px){
- .signContainer {
+ .signContainer, .signContainer1 {
    width: 80%;
  } 
 }
