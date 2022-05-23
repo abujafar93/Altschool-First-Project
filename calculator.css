@@ -1,0 +1,165 @@
+.calculator {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.calContainer {
+  width: 100%;
+  background-color: rgba(70, 3, 36, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px 20px 10px 20px;
+}
+
+.calContainer h2 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.screen {
+  width: 95%;
+  margin: 20px 0px;
+}
+
+#display1, #display2 {
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  border: none;
+  background-color: rgba(175, 110, 143, 0.3);
+}
+
+#display1 {
+  border-radius: 10px 10px 0px 0px;
+  padding: 0px 10px;
+}
+
+#display2 {
+  border-radius: 0px 0px 10px 10px;
+  padding: 0px 10px;
+  text-align: end;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#display1::placeholder, #display2::placeholder {
+  color: white;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px 0px;
+}
+
+.btn {
+  width: 55px;
+  height: 20px;
+  margin: 0px 10px 30px 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: rgba(70, 3, 36, 0.9);
+  font-weight: bolder;
+  background-color: rgba(175, 110, 143, 0.3);
+  box-shadow: 0px 3px 0px 0px rgba(175, 110, 143, 0.6);
+  cursor: pointer;
+}
+
+.clear {
+  background-color: hsl(0, 90%, 50%);
+  box-shadow: 0px 3px 0px 0px hsl(0, 90%, 30%);
+}
+
+.equal {
+  background-color: hsl(120, 100%, 25%);
+  box-shadow: 0px 3px 0px 0px hsl(100, 90%, 40%);
+  grid-column: 3 / span 2;
+  width: 85%;
+}
+
+.num {
+  background-color: hsl(30, 25%, 89%);
+  box-shadow: 0px 3px 0px 0px hsl(28, 16%, 65%);
+}
+
+/* TABBLE CALCULATOR STYLING */
+
+.screen2 {
+  width: 88%;
+  margin-top: 20px;
+}
+
+#display3, #display4 {
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  border: none;
+  background-color: rgba(175, 110, 143, 0.3);
+}
+
+#display3 {
+  border-radius: 10px 10px 0px 0px;
+  padding: 0px 10px;
+}
+
+#display4 {
+  border-radius: 0px 0px 10px 10px;
+  padding: 0px 10px;
+  text-align: end;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#display3::placeholder, #display4::placeholder {
+  color: white;
+}
+
+
+table {
+  width: 100%;
+  border: none;  border-spacing: 20px;
+}
+
+td {
+  background-color: hsl(30, 25%, 89%);
+  color: rgba(70, 3, 36, 0.9);
+  text-align: center;
+  width: 40px;
+  height: 30px;
+  border-radius: 10px;
+  color: rgba(70, 3, 36, 0.9);
+  font-weight: bolder;
+  background-color: rgba(175, 110, 143, 0.3);
+  box-shadow: 0px 3px 0px 0px rgba(175, 110, 143, 0.6);
+  cursor: pointer;
+  border: none;
+}
+
+.equalTo {
+  background-color: hsl(120, 100%, 25%);
+  box-shadow: 0px 3px 0px 0px hsl(100, 90%, 40%);
+}
+
+
+@media screen and (min-width: 600px){
+  .calculator {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .calculator {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1100px){
+  .calculator {
+    width: 30%;
+  }
+}
