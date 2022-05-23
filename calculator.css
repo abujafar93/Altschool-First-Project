@@ -163,3 +163,13 @@ td {
     width: 30%;
   }
 }
+
+@media screen and (min-width:375px){
+  .cal1 {
+    width: 86%;
+  }
+
+  .screen {
+    width: 100%;
+  }
+}
