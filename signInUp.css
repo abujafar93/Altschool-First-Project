@@ -30,6 +30,7 @@ body {
   font-size: 20px;
 }
 
+/* REGISTRATION FORM PAGE STYLING */
 #registerForm{
   margin: 20px 0px;
   padding: 0px 15px;
@@ -78,4 +79,56 @@ body {
   .signContainer{
     width: 27%;
   }
+}
+
+/* LOG IN PAGE STYLING */
+#logInForm {
+  margin: 30px 10px;
+}
+
+#email {
+ margin: 10px 0px 50px 0px;
+}
+
+#logInForm #email, #logInForm #password, #btn2 {
+  width: 90%;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(70, 3, 36, 0.3);
+  padding: 5px;
+  color: hsl(0, 0%, 90%);
+}
+
+#logInForm input::placeholder{
+  color: hsl(0, 0%, 60%);
+}
+
+span {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#checkbox {
+  margin-top: 10px;
+  margin-bottom: 100px
+}
+
+.signContainer h3 {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.signContainer h3 a {
+  text-decoration: none;
+  color: rgba(70, 3, 36, 0.9);
+}
+
+.signContainer h3 a:hover {
+  color: rgba(245, 52, 158, 0.7);
+}
+
+.signContainer input[type=button], input[type=checkbox]{
+  cursor: pointer;
 }

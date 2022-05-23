@@ -36,6 +36,10 @@
   color: hsl(0, 0%, 100%);
 }
 
+#nav-bar ul li a:hover {
+  color: rgba(70, 3, 36, 0.9);
+}
+
 body {
   background-color: rgba(70, 3, 36, 0.9);
   color: hsl(0, 0%, 90%);
@@ -234,6 +238,7 @@ body {
   border-radius: 30px 0px 20px 0px;
   margin-bottom: 20px;
   height: 40px;
+  cursor: pointer;
 }
 
 #cntbtn:hover, #cntbtn button:hover{
