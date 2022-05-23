@@ -292,3 +292,36 @@ footer p {
     margin: 20px auto;
   }
 }
+
+@media screen and (min-width:375px){
+
+  #nav-bar ul li {
+    font-size: 12px;
+    margin: 0px 7px;
+  }
+
+  .my-details img {
+    height: 120px;
+    width: 120px;
+  }
+ .wrapAll h2 {
+  font-size: 20px;   
+ }
+
+ .enrolmentPurpose h3 {
+  font-size: 17px;
+}
+
+.enrolmentPurpose ul {
+  padding: 10px;
+}
+
+.enrolmentPurpose li {
+  list-style-type: disc;
+  margin: 10px 0px;
+}
+
+.certificates dt {
+  margin-top: 12px;
+}
+}
