@@ -132,3 +132,9 @@ span {
 .signContainer input[type=button], input[type=checkbox]{
   cursor: pointer;
 }
+
+@media screen and (min-width: 375px){
+ .signContainer {
+   width: 80%;
+ } 
+}
