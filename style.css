@@ -9,6 +9,9 @@
   justify-content: space-between;
   height: 50px;
   padding: 10px;
+  top: 0;
+  z-index: 1;
+  position: sticky;
   background-image: linear-gradient(to right,  rgba(70, 3, 36, 0.7), rgba(245, 52, 158, 0.7));
 }
 
@@ -34,7 +37,7 @@
 }
 
 body {
-  background-color: rgba(245, 52, 158, 0.7);
+  background-color: rgba(70, 3, 36, 0.9);
   color: hsl(0, 0%, 90%);
 }
 
@@ -46,7 +49,7 @@ body {
   width: 80%;
   align-items: center;
   margin: 20px auto;
-  background-color:  rgba(204, 95, 150, 0.7);
+  background-color:  rgb(131, 32, 81);
   padding: 20px;
   border-radius: 20px;
 }
@@ -110,7 +113,7 @@ body {
   width: 70%;
   align-items: center;
   margin: 20px 0px;
-  background-color:  rgba(204, 95, 150, 0.7);
+  background-color:  rgb(131, 32, 81);
   padding: 20px;
   border-radius: 20px;
 }
@@ -130,7 +133,7 @@ body {
   width: 70%;
   align-items: center;
   margin: 20px 0px;
-  background-color:  rgba(204, 95, 150, 0.7);
+  background-color:  rgb(131, 32, 81);
   padding: 20px;
   border-radius: 20px;
 }
@@ -149,7 +152,7 @@ body {
   width: 70%;
   align-items: center;
   margin: 20px 0px;
-  background-color:  rgba(204, 95, 150, 0.7);
+  background-color:  rgb(131, 32, 81);
   padding: 20px;
   border-radius: 20px;
 }
@@ -172,7 +175,7 @@ body {
   width: 70%;
   align-items: center;
   margin: 20px 0px;
-  background-color:  rgba(204, 95, 150, 0.7);
+  background-color:  rgb(131, 32, 81);
   padding: 20px;
   border-radius: 20px;
 }
@@ -192,7 +195,7 @@ body {
   width: 70%;
   align-items: center;
   margin: 20px 0px;
-  background-color:  rgba(204, 95, 150, 0.7);
+  background-color:  rgb(131, 32, 81);
   padding: 20px;
   border-radius: 20px;
 }
@@ -217,14 +220,14 @@ body {
 
 /* CONTACT BUTTON */
 #cntbtn {
-  background-color:  rgba(204, 95, 150, 0.7);
+  background-color:  rgb(131, 32, 81);
   border-radius: 30px 0px 20px 0px;
   margin-left: 35%;
 }
 
 #cntbtn button {
   border: none;
-  background-color: rgba(204, 95, 150, 0.7);
+  background-color:  rgb(131, 32, 81);
   color: hsl(0, 0%, 90%);
   width: 30%;
   padding: 10px;
@@ -233,9 +236,8 @@ body {
   height: 40px;
 }
 
-#cntbtn:hover{
-  color: hsl(0, 0%, 100%);
-  background-color: rgba(70, 3, 36, 0.7);
+#cntbtn:hover, #cntbtn button:hover{
+  color: rgba(70, 3, 36, 0.9);
 }
 
 footer {

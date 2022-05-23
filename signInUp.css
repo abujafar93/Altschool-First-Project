@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.plate {
+  display: flex;
+  justify-content: center;
+  height: 530px;
+  margin-top: 30px;
+}
+
+.signContainer {
+  width: 50%;
+  height: 530px;
+  background-color:  rgb(131, 32, 81);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+body {
+  color: hsl(0, 0%, 90%);
+  background-color: rgba(70, 3, 36, 0.9);
+}
+
+.signContainer h1 {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+}
+
+#registerForm{
+  margin: 20px 0px;
+  padding: 0px 15px;
+}
+
+#registerForm label {
+  margin-top: 20px;
+}
+
+#registerForm input {
+  width: 90%;
+  margin: 5px 0px 20px 0px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(70, 3, 36, 0.3);
+  padding: 5px;
+  color: hsl(0, 0%, 90%);
+}
+
+#registerForm input::placeholder{
+  color: hsl(0, 0%, 60%);
+}
+
+.signContainer p {
+  text-align: center;
+  line-height: 20px;
+}
+
+.signContainer p a {
+  text-decoration: none;
+  color: rgba(70, 3, 36, 0.9);
+}
+
+.signContainer p a:hover{
+  color: rgba(245, 52, 158, 0.7);
+}
+
+@media  screen and (min-width:700px) {
+  .signContainer{
+    width: 40%;
+  }
+}
+
+@media  screen and (min-width:1000px) {
+  .signContainer{
+    width: 27%;
+  }
+}
