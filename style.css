@@ -26,16 +26,17 @@
 #nav-bar ul li {
   list-style: none;
   margin: 0px 10px;
-  color: white;
+  color: hsl(0, 0%, 100%);
 }
 
 #nav-bar ul li a {
   text-decoration: none;
-  color: white;
+  color: hsl(0, 0%, 100%);
 }
 
 body {
   background-color: rgba(245, 52, 158, 0.7);
+  color: hsl(0, 0%, 90%);
 }
 
 /* MY DETAILS SECTION */
@@ -61,11 +62,14 @@ body {
 
 .my-details hgroup {
   text-align: center;
-  color: white;
 }
 
 .my-details hgroup p, .my-details hgroup h2 {
   margin-bottom: 20px;
+}
+
+.my-details h2 {
+  color: hsl(0, 0%, 100%);
 }
 
 .my-details hgroup p {
@@ -80,9 +84,9 @@ body {
   }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
   .my-details {
-    width: 80%;
+    width: 60%;
     flex-direction: row;
   }
 
@@ -94,6 +98,195 @@ body {
 
   .my-details hgroup {
     margin: 0px 10px;
-    color: white;
+  }
+}
+
+/* WRAP SECTION */
+.wrapAll a {
+  text-decoration: none;
+}
+
+.wrapAll a:hover {
+  color: rgba(70, 3, 36, 0.7); 
+}
+
+.wrapAll{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapAll h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.wrapAll h2, .wrapAll h3 {
+  color: hsl(0, 0%, 100%);
+}
+
+
+/* GOALS SECTION */
+.enrolmentPurpose {
+  height: 380px;
+  width: 70%;
+  align-items: center;
+  margin: 20px auto;
+  background-color:  rgba(204, 95, 150, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.enrolmentPurpose ul {
+  padding: 15px;
+}
+
+.enrolmentPurpose li {
+  list-style-type:none;
+  margin: 10px 0px;
+}
+
+/* EDUCATION SECTION */
+.education {
+  height: 380px;
+  width: 70%;
+  align-items: center;
+  margin: 20px auto;
+  background-color:  rgba(204, 95, 150, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.education dt {
+  margin: 30px 0px 5px 0px;
+}
+
+.education dd {
+  margin-left: 30px;
+}
+
+/* CERTIFICATES SECTION*/
+.certificates {
+  height: 380px;
+  width: 70%;
+  align-items: center;
+  margin: 20px auto;
+  background-color:  rgba(204, 95, 150, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.certificates dt {
+  margin: 15px 0px 5px 0px;
+}
+
+.certificates dd {
+  margin-left: 30px;
+}
+
+.certificates a {
+  color: hsl(0, 0%, 90%);
+}
+
+/* JOB EXPERIENCE */
+.experience {
+  height: 380px;
+  width: 70%;
+  align-items: center;
+  margin: 20px auto;
+  background-color:  rgba(204, 95, 150, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.experience ul {
+  margin: 40px 0px 0px 10px;
+}
+
+.experience ul li {
+  margin: 30px 0px;
+  list-style-type: none;
+}
+
+/* HOBBIES AND SKILLS */
+.hobb-skills{
+  height: 380px;
+  width: 70%;
+  align-items: center;
+  margin: 20px auto;
+  background-color:  rgba(204, 95, 150, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.hobb-skills h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hobb-skills li {
+  list-style-type: none;
+  margin: 10px 0px;
+}
+
+#hobbies {
+  margin: 0px 0px 30px 20px;
+}
+
+#skills {
+  margin: 0px 0px 30px 20px;
+}
+
+/* CONTACT BUTTON */
+#cntbtn {
+  background-color:  rgba(204, 95, 150, 0.7);
+  border-radius: 30px 0px 20px 0px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+#cntbtn button {
+  border: none;
+  background-color: rgba(204, 95, 150, 0.7);
+  color: hsl(0, 0%, 90%);
+  align-self: center;
+  width: 40%;
+  padding: 10px;
+  border-radius: 30px 0px 20px 0px;
+  margin: 0px;
+}
+
+#cntbtn:hover, #cntbtn button:hover{
+  color: hsl(0, 0%, 100%);
+  background-color: rgba(70, 3, 36, 0.7);
+}
+
+footer {
+  height: 70px;
+  background-color: rgba(70, 3, 36, 0.7);
+}
+
+footer p {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+@media screen and (min-width: 600px){
+  .wrapAll {
+    margin: 0 auto;
+  }
+
+  .cup{
+    width: 70%;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .wrapAll {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: ;
   }
 }
