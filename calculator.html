@@ -5,8 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="calculator.css">
   <title>calculator Page</title>
 </head>
+
 <body>
   <nav id="nav-bar">
     <img src="BP.jpg" alt=logo"">
@@ -19,37 +21,98 @@
     </ul>
   </nav>
 
+
+  <!-- FLEX_BOX CALCULATOR -->
   <div class="calculator">
     <div class="calContainer">
-      <div class="btn">(</div>
-      <div class="btn">)</div>
-      <div class="btn">ans</div>
-      <div class="btn">del</div>
-      <div class="btn">clear</div>
-      <div class="btn num">7</div>
-      <div class="btn num">8</div>
-      <div class="btn num">9</div>
-      <div class="btn">%</div>
-      <div class="btn"></div>
-      <div class="btn num">4</div>
-      <div class="btn num">5</div>
-      <div class="btn num">6</div>
-      <div class="btn">x</div>
-      <div class="btn">/</div>
-      <div class="btn num">1</div>
-      <div class="btn num">2</div>
-      <div class="btn num">3</div>
-      <div class="btn">+</div>
-      <div class="btn">-</div>
-      <div class="btn"></div>
-      <div class="btn">.</div>
-      <div class="btn">0</div>
-      <div class="btn"></div>
+      <h2>Flex-box Calculator</h2>
+      <div class="screen">
+        <input id="display1" placeholder="12 x 10 + 3"><br>
+        <input id="display2" placeholder="123">
+      </div>
+
+      <div class="keys">
+
+        <div class="btn clear">C</div>
+        <div class="btn operant">+/-</div>
+        <div class="btn operant">%</div>
+        <div class="btn operant">/</div>
+
+        <div class="btn num">7</div>
+        <div class="btn num">8</div>
+        <div class="btn num">9</div>
+        <div class="btn operant">x</div>
+
+        <div class="btn num">4</div>
+        <div class="btn num">5</div>
+        <div class="btn num">6</div>
+        <div class="btn operant">-</div>
+
+        <div class="btn num">1</div>
+        <div class="btn num">2</div>
+        <div class="btn num">3</div>
+        <div class="btn operant">+</div>
+
+        <div class="btn num">0</div>
+        <div class="btn dot">.</div>
+        <div class="btn equal">=</div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- TABLE CALCULATOR -->
+  <div class="calculator">
+    <div class="calContainer">
+      <h2>Table Calculator</h2>
+      <div class="screen2">
+        <input id="display3" placeholder="12 x 0 + 3">
+        <input id="display4" placeholder="123">
+      </div>
+      <table>
+        <tr>
+          <td class="clear">C</td>
+          <td>+/-</td>
+          <td>%</td>
+          <td>/</td>
+        </tr>
+
+        <tr>
+          <td  class="num">7</td>
+          <td class="num">8</td>
+          <td class="num">9</td>
+          <td>x</td>
+        </tr>
+
+        <tr>
+          <td class="num">4</td>
+          <td class="num">5</td>
+          <td class="num">6</td>
+          <td>-</td>
+        </tr>
+
+        <tr>
+          <td class="num">1</td>
+          <td class="num">2</td>
+          <td class="num">3</td>
+          <td>+</td>
+        </tr>
+
+        <tr>
+          <td class="num">0</td>
+          <td>.</td>
+          <td class="equalTo" colspan="2">=</td>
+        </tr>
+
+      </table>
     </div>
   </div>
 
-  <div class="calculator">
-    <div class="calContainer"></div>
-  </div>
+  <footer>
+    <p>Copyright: 2022</p>
+  </footer>
 </body>
+
 </html>
