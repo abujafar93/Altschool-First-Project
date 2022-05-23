@@ -7,7 +7,6 @@
 #nav-bar {
   display: flex;
   justify-content: space-between;
-  /* background-color: blue; */
   height: 50px;
   padding: 10px;
   background-image: linear-gradient(to right,  rgba(70, 3, 36, 0.7), rgba(245, 52, 158, 0.7));
@@ -78,28 +77,6 @@ body {
   margin-top: 10px;
 }
 
-@media screen and (min-width: 600px){
-  .my-details {
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 900px){
-  .my-details {
-    width: 60%;
-    flex-direction: row;
-  }
-
-  .my-details img {
-    width: 250px;
-    height: 300px;
-    border-radius: 80px;
-  }
-
-  .my-details hgroup {
-    margin: 0px 10px;
-  }
-}
 
 /* WRAP SECTION */
 .wrapAll a {
@@ -132,7 +109,7 @@ body {
   height: 380px;
   width: 70%;
   align-items: center;
-  margin: 20px auto;
+  margin: 20px 0px;
   background-color:  rgba(204, 95, 150, 0.7);
   padding: 20px;
   border-radius: 20px;
@@ -144,7 +121,7 @@ body {
 
 .enrolmentPurpose li {
   list-style-type:none;
-  margin: 10px 0px;
+  margin: 15px 0px;
 }
 
 /* EDUCATION SECTION */
@@ -152,7 +129,7 @@ body {
   height: 380px;
   width: 70%;
   align-items: center;
-  margin: 20px auto;
+  margin: 20px 0px;
   background-color:  rgba(204, 95, 150, 0.7);
   padding: 20px;
   border-radius: 20px;
@@ -171,7 +148,7 @@ body {
   height: 380px;
   width: 70%;
   align-items: center;
-  margin: 20px auto;
+  margin: 20px 0px;
   background-color:  rgba(204, 95, 150, 0.7);
   padding: 20px;
   border-radius: 20px;
@@ -194,7 +171,7 @@ body {
   height: 380px;
   width: 70%;
   align-items: center;
-  margin: 20px auto;
+  margin: 20px 0px;
   background-color:  rgba(204, 95, 150, 0.7);
   padding: 20px;
   border-radius: 20px;
@@ -214,7 +191,7 @@ body {
   height: 380px;
   width: 70%;
   align-items: center;
-  margin: 20px auto;
+  margin: 20px 0px;
   background-color:  rgba(204, 95, 150, 0.7);
   padding: 20px;
   border-radius: 20px;
@@ -242,22 +219,21 @@ body {
 #cntbtn {
   background-color:  rgba(204, 95, 150, 0.7);
   border-radius: 30px 0px 20px 0px;
-  align-self: center;
-  margin-bottom: 20px;
+  margin-left: 35%;
 }
 
 #cntbtn button {
   border: none;
   background-color: rgba(204, 95, 150, 0.7);
   color: hsl(0, 0%, 90%);
-  align-self: center;
-  width: 40%;
+  width: 30%;
   padding: 10px;
   border-radius: 30px 0px 20px 0px;
-  margin: 0px;
+  margin-bottom: 20px;
+  height: 40px;
 }
 
-#cntbtn:hover, #cntbtn button:hover{
+#cntbtn:hover{
   color: hsl(0, 0%, 100%);
   background-color: rgba(70, 3, 36, 0.7);
 }
@@ -278,15 +254,34 @@ footer p {
   }
 
   .cup{
-    width: 70%;
+    width: 50%;
     align-self: center;
   }
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 900px){
+  .my-details {
+    width: 80%;
+    flex-direction: row;
+  }
+
+  .my-details img {
+    width: 250px;
+    height: 300px;
+    border-radius: 80px;
+  }
+
+  .my-details hgroup {
+    margin: 0px 10px;
+  }
+
   .wrapAll {
-    margin: 0 auto;
     display: grid;
-    grid-template-columns: ;
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  .cup {
+    width:60%;
+    margin: 20px auto;
   }
 }
