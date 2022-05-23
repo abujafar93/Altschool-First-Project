@@ -101,11 +101,11 @@ body {
   margin: 30px 10px;
 }
 
-#email {
+#username {
  margin: 10px 0px 50px 0px;
 }
 
-#logInForm #email, #logInForm #password, #btn2 {
+#logInForm #username, #logInForm #password, #btn2 {
   width: 90%;
   height: 25px;
   border-radius: 5px;
