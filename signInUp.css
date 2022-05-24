@@ -69,24 +69,13 @@ body {
   color: rgba(245, 52, 158, 0.7);
 }
 
-@media  screen and (min-width:700px) {
-  .signContainer, .signContainer1{
-    width: 40%;
-  }
-}
-
-@media  screen and (min-width:1000px) {
-  .signContainer, .signContainer1{
-    width: 27%;
-  }
-}
 
 /* LOG IN PAGE STYLING */
 .plate {
   display: flex;
   justify-content: center;
   height: 530px;
-  margin: 50px 0px;
+  margin: 50px auto;
 }
 
 .signContainer {
@@ -174,4 +163,16 @@ textarea {
  .signContainer, .signContainer1 {
    width: 80%;
  } 
+}
+
+@media  screen and (min-width:700px) {
+  .signContainer, .signContainer1{
+    width: 40%;
+  }
+}
+
+@media  screen and (min-width:1000px) {
+  .signContainer, .signContainer1{
+    width: 27%;
+  }
 }
