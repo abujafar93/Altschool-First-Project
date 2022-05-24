@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Contact Page</title>
-</head>
-<body>
-  <nav id="nav-bar">
-    <img src="BP.jpg" alt=logo"">
-    <ul>
-      <li><a href="index.html">About me</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="register.html">Register</a></li>
-      <li><a href="login.html">Log in</a></li>
-      <li><a href="calculator.html">Calculator</a></li>
-    </ul>
-  </nav>
-
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signInUp.css">
+    <title>Contact Me Page</title>
+  </head>
+  
+  
+  <body>
+    <nav id="nav-bar">
+      <img src="BP.jpg" alt=logo"">
+      <ul>
+        <li><a href="index.html">About me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Log in</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+      </ul>
+    </nav>
+  
+      <div class="plate">
+        <div class="signContainer">
+          <h1>Contact Me</h1>
+          <div>
+            <form id="registerForm">
+              <label for="username">Name</label><br>
+              <input type="text" id="name" placeholder="Enter your name"><br>
+              <label for="email">Email</label><br>
+              <input type="email" id="email" placeholder="Enter your email"><br>
+              <label for="username">Message</label><br>
+              <textarea type="text" id="message" placeholder="write your message here" rows="10" cols="25"></textarea><br>
+                <label for="priority">Priority:</label>
+                <select name="priority" id="priority">
+                  <option value="veryImportant">Very Important</option>
+                  <option value="important">Important</option>
+                  <option value="lessImportant">Less Important</option>
+                  <option value="notImportant">Not Important</option>
+                </select>
+  
+              <input type="button" value="Sign In" id="btn2" class="cntactbtn">
+            </form>
+          </div>
+        </div>
+      </div>
+  
+      <footer>
+        <p>Copyright: 2022</p>
+      </footer>
+  </body>
+  
 </html>
