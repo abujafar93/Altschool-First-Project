@@ -272,7 +272,7 @@ footer p {
     flex-direction: row;
   }
 
-  .my-details img {
+  #my-detailsImg {
     width: 250px;
     height: 300px;
     border-radius: 80px;
