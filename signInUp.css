@@ -7,12 +7,12 @@
 .plate1{
   display: flex;
   justify-content: center;
-  height: 750px;
+  height: 800px;
   margin: 50px 0px;
 }
 
 .signContainer1 {
-  height: 750px;
+  height: 800px;
   width: 50%;
   background-color:  rgb(131, 32, 81);
   padding: 20px;
@@ -157,6 +157,17 @@ textarea {
   border-radius: 10px ;
   padding: 5px;
   margin-top: 10px;
+}
+
+#gender {
+  border: none;
+  width: 90%;
+  background-color: rgba(70, 3, 36, 0.3);
+  color: hsl(0, 0%, 60%);
+  border-radius: 5px ;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 375px){
